@@ -1,0 +1,5 @@
+{
+  "name": "05-ds",
+  "workspaces": [ "packages/*"],
+  "private": true
+}
