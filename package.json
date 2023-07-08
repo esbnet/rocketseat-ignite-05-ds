@@ -1,5 +1,14 @@
 {
   "name": "05-ds",
-  "workspaces": [ "packages/*"],
-  "private": true
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev":"turbo run dev --parallel",
+    "build":"turbo run build"
+  },
+  "private": true,
+  "devDependencies": {
+    "turbo": "^1.10.7"
+  }
 }
