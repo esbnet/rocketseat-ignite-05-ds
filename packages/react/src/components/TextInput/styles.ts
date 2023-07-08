@@ -47,5 +47,3 @@ export const Input = styled('input', {
     color: '$gray400'
   }
 })
-
-
