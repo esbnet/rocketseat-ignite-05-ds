@@ -1,4 +1,4 @@
-import { Button, ButtonProps } from "@qc-ui/react";
+import { Button, ButtonProps } from "@quarkscode-ui/react";
 import type { Meta, StoryObj } from "@storybook/react";
 import { ArrowRight } from "phosphor-react";
 

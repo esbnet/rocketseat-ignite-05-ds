@@ -1,12 +1,12 @@
 import {
-  colors,
-  fontSizes,
-  fontWeights,
-  fonts,
-  lineHeights,
-  radii,
-  space,
-} from '@qc-ui/tokens'
+    colors,
+    fontSizes,
+    fontWeights,
+    fonts,
+    lineHeights,
+    radii,
+    space,
+} from '@quarkscode-ui/tokens'
 import { createStitches, defaultThemeMap } from '@stitches/react'
 
 export const {

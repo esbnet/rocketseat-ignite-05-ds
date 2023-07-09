@@ -1,4 +1,4 @@
-import { Heading, HeadingProps } from "@qc-ui/react";
+import { Heading, HeadingProps } from "@quarkscode-ui/react";
 import type { Meta, StoryObj } from "@storybook/react";
 
 export default {

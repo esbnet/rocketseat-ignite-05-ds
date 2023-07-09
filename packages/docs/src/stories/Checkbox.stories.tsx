@@ -1,4 +1,4 @@
-import { Box, Checkbox, CheckboxProps, Text } from "@qc-ui/react";
+import { Box, Checkbox, CheckboxProps, Text } from "@quarkscode-ui/react";
 import type { Meta, StoryObj } from "@storybook/react";
 
 export default {

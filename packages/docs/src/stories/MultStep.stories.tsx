@@ -1,4 +1,4 @@
-import { Box, MultiStep, MultiStepProps } from '@qc-ui/react'
+import { Box, MultiStep, MultiStepProps } from '@quarkscode-ui/react'
 import type { Meta, StoryObj } from '@storybook/react'
 
 export default {

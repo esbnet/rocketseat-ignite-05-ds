@@ -1,4 +1,4 @@
-import { Box, Text, TextInput, TextInputProps } from "@qc-ui/react";
+import { Box, Text, TextInput, TextInputProps } from "@quarkscode-ui/react";
 import type { Meta, StoryObj } from "@storybook/react";
 
 export default {

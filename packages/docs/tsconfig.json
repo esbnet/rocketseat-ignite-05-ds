@@ -1,4 +1,4 @@
 {
-  "extends": "@qc-ui/ts-config/react.json",
+  "extends": "@quarkscode-ui/ts-config/react.json",
   "include": ["src"]
 }

@@ -1,4 +1,4 @@
-import { Text, TextProps } from "@qc-ui/react";
+import { Text, TextProps } from "@quarkscode-ui/react";
 import type { Meta, StoryObj } from "@storybook/react";
 
 export default {

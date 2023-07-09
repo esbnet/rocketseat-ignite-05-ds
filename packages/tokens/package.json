@@ -1,5 +1,5 @@
 {
-  "name": "@qc-ui/tokens",
+  "name": "@quarkscode-ui/tokens",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
@@ -14,8 +14,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@qc-ui/ts-config": "*",
-    "@qc-ui/eslint-config": "*",
+    "@quarkscode-ui/ts-config": "*",
+    "@quarkscode-ui/eslint-config": "*",
     "tsup": "^7.1.0",
     "typescript": "^5.1.6"
   }

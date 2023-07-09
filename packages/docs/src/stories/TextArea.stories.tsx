@@ -1,4 +1,4 @@
-import { Box, Text, TextArea, TextAreaProps } from "@qc-ui/react";
+import { Box, Text, TextArea, TextAreaProps } from "@quarkscode-ui/react";
 import type { Meta, StoryObj } from "@storybook/react";
 
 export default {

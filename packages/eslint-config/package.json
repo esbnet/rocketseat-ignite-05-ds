@@ -1,5 +1,5 @@
 {
-  "name": "@qc-ui/eslint-config",
+  "name": "@quarkscode-ui/eslint-config",
   "license": "MIT",
   "private": true,
   "main": "index.js",

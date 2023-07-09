@@ -1,4 +1,4 @@
-import { Avatar, AvatarProps } from "@qc-ui/react";
+import { Avatar, AvatarProps } from "@quarkscode-ui/react";
 import type { Meta, StoryObj } from "@storybook/react";
 
 export default {

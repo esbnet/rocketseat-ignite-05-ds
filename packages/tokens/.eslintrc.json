@@ -1,3 +1,3 @@
 {
-  "extends": "@qc-ui/eslint-config"
+  "extends": "@quarkscode-ui/eslint-config"
 }
