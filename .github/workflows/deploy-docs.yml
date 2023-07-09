@@ -1,4 +1,6 @@
 name: Deploy docs
+  working-directory: ./packages/docs
+  run: touch storybook-static/.nojekyll && npm run deploy-storybook
 
 on:
   push:
