@@ -3325,23 +3325,26 @@ var Button = styled("button", {
   "&:disabled": {
     cursor: "not-allowed"
   },
+  "&:focus": {
+    boxShadow: "0 0 0 2px $colors$gray100"
+  },
   variants: {
     variant: {
       primary: {
         color: "$white",
-        backgroundColor: "$ignite500",
+        background: "$ignite500",
         "&:not(:disabled):hover": {
-          backgroundColor: "$ignite300"
+          background: "$ignite300"
         },
         "&:disabled": {
-          backgroundColor: "$ignite200"
+          backgroundColor: "$gray200"
         }
       },
       secondary: {
         color: "$ignite300",
         border: "2px solid $ignite500",
         "&:not(:disabled):hover": {
-          backgroundColor: "$ignite500",
+          background: "$ignite500",
           color: "$white"
         },
         "&:disabled": {
@@ -3351,7 +3354,6 @@ var Button = styled("button", {
       },
       tertiary: {
         color: "$gray100",
-        border: "2px solid $gray600",
         "&:not(:disabled):hover": {
           color: "$white"
         },

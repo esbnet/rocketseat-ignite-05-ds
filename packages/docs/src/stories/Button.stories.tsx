@@ -16,21 +16,21 @@ export default {
       options: ["primary", "secondary", "tertiary"],
       control: {
         type: "inline-radio",
-      }
+      },
     },
     size: {
       options: ["sm", "md"],
       control: {
         type: "inline-radio",
-      }
+      },
     },
     disabled: {
       control: {
         type: "boolean",
-      }
+      },
     },
-    onClick: { action: "click" },
-  }
+    onClick: { action: "clicked" },
+  },
 } as Meta<ButtonProps>;
 
 export const Primary: StoryObj<ButtonProps> = {};
@@ -41,6 +41,7 @@ export const Secondary: StoryObj<ButtonProps> = {
     children: "Create new",
   },
 };
+
 export const Tertiary: StoryObj<ButtonProps> = {
   args: {
     variant: "tertiary",
@@ -61,10 +62,11 @@ export const WithIcon: StoryObj<ButtonProps> = {
         Próximo passo
         <ArrowRight weight="bold" />
       </>
+    ,
   },
 };
 
-export const Disable: StoryObj<ButtonProps> = {
+export const Disabled: StoryObj<ButtonProps> = {
   args: {
     disabled: true,
   },
