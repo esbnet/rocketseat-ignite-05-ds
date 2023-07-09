@@ -20,6 +20,8 @@ jobs:
       - run: npm ci
 
       - run: npm run build
+          TURBO_TOKEN: rug47t9LsuFmZPXIrb3rQvmT
+          TURBO_TEAM: qc-ds-ui
 
       - name: Deploy storybook
 
