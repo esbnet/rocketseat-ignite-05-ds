@@ -4,11 +4,12 @@
     "packages/*"
   ],
   "scripts": {
-    "dev":"turbo run dev --parallel",
-    "build":"turbo run build"
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build"
   },
   "private": true,
   "devDependencies": {
+    "@storybook/storybook-deployer": "^2.8.16",
     "turbo": "^1.10.7"
   }
 }
