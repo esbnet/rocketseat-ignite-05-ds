@@ -1,3 +1,7 @@
+body {
+  background: '$gray600',
+}
+
 .tokens-grid {
   width: 100%;
   font-family: sans-serif;
